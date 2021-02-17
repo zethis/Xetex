@@ -9,7 +9,7 @@ steps:
       from_secret: dockerhub_login
     password:
       from_secret: dockerhub_password
-    repo: zethis/docker-xymon
+    repo: zethis/xetex
     tags: latest
   when:
     event:
